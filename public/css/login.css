@@ -1,0 +1,463 @@
+.full-height {
+  height: 100%;
+}
+
+.basic-layout__header {
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+}
+
+.basic-layout {
+  height: 100%;
+  width: 100%;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.basic-layout__header {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  color: #959595;
+  font-size: 18px;
+  height: 55px;
+  opacity: .8;
+  padding-left: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+a {
+  color: #06c;
+}
+
+[role=button],
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+.basic-layout__header__logo__image {
+  width: 120px height: auto;
+}
+
+img {
+  vertical-align: middle;
+}
+
+img {
+  border: 0;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+.basic-layout__main {
+  -ms-flex: 1;
+  flex: 1;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.login__wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 900px;
+  padding-bottom: 200px
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+div {
+  display: block;
+}
+
+.login__wrapper__banner-ctn {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.login__wrapper__video {
+  background-size: cover;
+}
+
+.login__wrapper__image,
+.login__wrapper__video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+video {
+  object-fit: contain;
+}
+
+.application {
+  cursor: default;
+}
+
+.login__wrapper__jumbotron-title {
+  position: relative;
+  color: #fff;
+  font-size: 20px;
+  line-height: 45px;
+  margin-left: 30px;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+div {
+  display: block;
+}
+
+.application {
+  cursor: default;
+}
+
+.login__wrapper__buttons {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 200px
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+div {
+  display: block;
+}
+
+.application {
+  cursor: default;
+}
+
+.login__content {
+  color: #fff;
+  margin-top: 30px position: relative;
+  width: 50%;
+  z-index: 1;
+  height: 1000px;
+}
+
+.login__content__header {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.h4,
+h4 {
+  font-size: 12px
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+.login__content {
+  color: #fff;
+  margin-top: 3rem;
+  position: relative;
+  width: 40%;
+  z-index: 1;
+}
+
+.login__content__list {
+  padding-left: 1.5rem;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+}
+
+address,
+dl,
+ol,
+ul {
+  margin-bottom: 1rem;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+ul,
+menu,
+dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+.login__content-list-item {
+  color: #fff;
+  font-size: 12px;
+}
+
+.login+.main-footer,
+.login .main-footer {
+  background: #fff;
+}
+
+.main-footer {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+
+body {
+  font-family: Avenir LT Std, Arial, Sans-Serif;
+  font-size: 10px;
+  line-height: 1.5;
+  color: #373a3c;
+  background-color: #f0f0f5;
+}
+
+.basic-layout__header__logo__image {
+  width: 120px;
+  height: auto;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+.login__content p {
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+
+.adv-btn.login__wrapper__buttons__login-button {
+  border-radius: 0;
+  margin-bottom: 12px;
+  height: 35px;
+  color: #fff;
+}
+
+.adv-btn {
+  position: relative;
+  background: #40a3f5;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  border: 0;
+  color: #fff;
+}
+
+
+
+
+a,
+input{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+  position: relative;
+  width: 80%;
+  display: block;
+  margin: 9px auto;
+  font-size: 17px;
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background: rgba(3,3,3,.1);
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus{
+  outline: none;
+  box-shadow: 3px 3px 10px #333;
+  background: rgba(3,3,3,.18);
+}
+
+/* Placeholders */
+::-webkit-input-placeholder {
+   color: #ddd;  }
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  }
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  }
+:-ms-input-placeholder {
+   color: #333;  }
+
+/* Link */
+a{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  padding: 4px 8px;
+  background: rgba(107,255,3,0.3);
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+.orange-btn{
+  background: rgba(87,198,255,.5);
+}
+
+#container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 100;
+  margin: auto;
+  width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  background: rgba(3,3,3,0.25);
+  box-shadow: 1px 1px 50px #000
+}
+
+.signuplink{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+  position: relative;
+  width: 80%;
+  display: inline;
+  color: #fff;
+  background-color: inherit;
+}
+
+.singuplabel{
+  font-family: 'Open Sans Condensed', sans-serif;
+  position: relative;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 30px;
+}
