@@ -17,3 +17,9 @@ Route::get('/', function () {
 Route::get('login',function(){
   return view('travel.pages.login');
 });
+Route::get('login2',function(){
+  return view('travel.pages.login2');
+});
+Route::get('login3',function(){
+  return view('travel.pages.login3');
+});
