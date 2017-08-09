@@ -1,1 +1,1 @@
-web: public public/
+web: vendor/bin/TravelSocial/public public/
