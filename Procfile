@@ -1,1 +1,1 @@
-web: vendor/bin/TravelSocial public/
+web: LaravelSource/TravelSocial public/
