@@ -1,1 +1,0 @@
-web: LaravelSource/TravelSocial public/
